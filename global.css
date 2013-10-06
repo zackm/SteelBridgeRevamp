@@ -1,3 +1,16 @@
 body {
 	background-image: url(graphy/graphy.png)
 }
+.page-title {
+	background-color: #ccc;
+	text-align: center;
+	font-size: 1.3em;
+	padding: 10px;
+	font-weight: bold;
+}
+.pure-menu {
+	text-align: center;
+}
+.team-pic {
+	text-align: center;
+}
