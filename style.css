@@ -1,0 +1,39 @@
+body {
+  background-image: url(img/noisy_grid.png); }
+
+.nav a {
+  text-transform: uppercase; }
+
+.bar {
+  height: 10px; }
+  .bar.blue {
+    background-color: #0E158C; }
+  .bar.gold {
+    background-color: #8C771B; }
+
+.centerpiece {
+  text-align: center;
+  position: relative;
+  top: -65px; }
+  .centerpiece img {
+    width: 80px;
+    height: 80px; }
+
+.temp-spacer {
+  width: 60px; }
+
+.page-title {
+  background-color: #ccc;
+  text-align: center;
+  font-size: 1.3em;
+  padding: 10px;
+  font-weight: bold; }
+  .page-title .ucb {
+    font-size: .85em;
+    font-weight: normal; }
+
+.pure-menu {
+  text-align: center; }
+
+.team-pic {
+  text-align: center; }
