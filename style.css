@@ -1,22 +1,38 @@
+html, body {
+  height: 100%; }
+
+#wrap {
+  min-height: 100%; }
+
+#main {
+  overflow: auto;
+  padding-bottom: 150px; }
+
+/* must be same height as the footer */
+#footer {
+  position: relative;
+  margin-top: -150px;
+  /* negative value of footer height */
+  height: 150px;
+  clear: both; }
+
 body {
   background-image: url(img/noisy_grid.png); }
 
 .nav a {
   text-transform: uppercase; }
 
-.footer {
-  border-top: 10px solid #0E158C;
+#footer {
   background-color: #ccc;
-  bottom: 0px;
   text-align: center;
   font-size: .9em; }
-  .footer .pure-u-1-5 {
+  #footer .pure-u-1-5 {
     padding-top: 10px;
     padding-bottom: 10px; }
-  .footer a {
+  #footer a {
     text-decoration: none;
     color: #555555; }
-  .footer ul {
+  #footer ul {
     list-style-type: none; }
 
 .bar {

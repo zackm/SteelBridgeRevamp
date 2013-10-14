@@ -1,4 +1,25 @@
 // Constants and Colors
+$footer_height: 150px;
+
+html, body {
+	height: 100%;
+}
+
+#wrap {
+	min-height: 100%;
+}
+
+#main {
+	overflow:auto;
+	padding-bottom: $footer_height;
+}  /* must be same height as the footer */
+
+#footer {
+	position: relative;
+	margin-top: -$footer_height; /* negative value of footer height */
+	height: $footer_height;
+	clear:both;
+} 
 
 body {
 	background-image: url(img/noisy_grid.png)
@@ -11,15 +32,12 @@ body {
 	}
 }
 
-.footer {
-	border-top: 10px solid #0E158C;
+#footer {
 	.pure-u-1-5 {
 		padding-top: 10px;
 		padding-bottom: 10px;
 	}
 	background-color: #ccc;
-	// position: fixed;
-	bottom: 0px;
 	text-align: center;
 	font-size: .9em;
 	a {
