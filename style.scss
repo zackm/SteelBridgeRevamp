@@ -1,5 +1,6 @@
 // Constants and Colors
 $footer_height: 150px;
+$steel_gray: #2d2d2d;
 
 html, body {
 	height: 100%;
@@ -37,7 +38,7 @@ body {
 		padding-top: 10px;
 		padding-bottom: 10px;
 	}
-	background-color: #ccc;
+	background-color: $steel_gray;
 	text-align: center;
 	font-size: .9em;
 	a {
