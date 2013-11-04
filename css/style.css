@@ -23,7 +23,7 @@ body {
   text-transform: uppercase; }
 
 #footer {
-  background-color: #ccc;
+  background-color: #2d2d2d;
   text-align: center;
   font-size: .9em; }
   #footer .pure-u-1-5 {
@@ -34,13 +34,15 @@ body {
     color: #555555; }
   #footer ul {
     list-style-type: none; }
+  #footer .heading {
+    color: #ccc; }
 
 .bar {
   height: 10px; }
   .bar.blue {
-    background-color: #0E158C; }
+    background-color: #0e158c; }
   .bar.gold {
-    background-color: #8C771B; }
+    background-color: #8c771b; }
 
 .centerpiece {
   text-align: center;

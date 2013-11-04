@@ -1,6 +1,4 @@
-// Constants and Colors
-$footer_height: 150px;
-$steel_gray: #2d2d2d;
+@import "shared";
 
 html, body {
 	height: 100%;
@@ -56,10 +54,10 @@ body {
 .bar {
 	height: 10px;
 	&.blue {
-		background-color: #0E158C;
+		background-color: $blue;
 	}
 	&.gold {
-		background-color: #8C771B;
+		background-color: $gold;
 	}
 }
 
