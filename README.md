@@ -14,12 +14,14 @@ Site Notes:
 - basic static html files
 - CSS written in SASS (link here)
 - you can write CSS with normal syntax in .scss files, but then you have to compile it into a .css file before using the styles on the production site.
+- css and js files are compressed, please make new compressed versions after making changes (inst here)
 
 Editing Instructions:
 - hosted on Berkeley's OCF
 - FTP into OCF
 - transfer files into public_html folder
 - (link to their instructions)
+- you can download this version of the site, or contact me to get edit privileges to this repo
 
 TODO List for each year:
 - update history to include past year
