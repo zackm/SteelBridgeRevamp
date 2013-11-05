@@ -1,14 +1,5 @@
 /* General Blueprint Style */
 .timeline {
-  @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
-  @font-face {
-    font-family: 'fontawesome';
-    src: url("../fonts/fontawesome.eot");
-    src: url("../fonts/fontawesome.eot?#iefix") format("embedded-opentype"), url("../fonts/fontawesome.svg#fontawesome") format("svg"), url("../fonts/fontawesome.woff") format("woff"), url("../fonts/fontawesome.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal; }
-
-  font-family: 'Lato', Calibri, Arial, sans-serif;
   color: #47a3da;
   /* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */ }
   .timeline *, .timeline *:after, .timeline *:before {
@@ -24,9 +15,6 @@
     display: table; }
   .timeline .clearfix:after {
     clear: both; }
-  .timeline a {
-    color: #f0f0f0;
-    text-decoration: none; }
   .timeline a:hover {
     color: #000; }
   .timeline .main,
@@ -49,34 +37,6 @@
     text-transform: uppercase;
     letter-spacing: 0.5em;
     padding: 0 0 0.6em 0.1em; }
-  .timeline .container > header nav {
-    float: right; }
-  .timeline .container > header nav a {
-    display: block;
-    float: left;
-    position: relative;
-    width: 2.5em;
-    height: 2.5em;
-    background: #fff;
-    border-radius: 50%;
-    color: transparent;
-    margin: 0 0.1em;
-    border: 4px solid #47a3da;
-    text-indent: -8000px; }
-  .timeline .container > header nav a:after {
-    content: attr(data-info);
-    color: #47a3da;
-    position: absolute;
-    width: 600%;
-    top: 120%;
-    text-align: right;
-    right: 0;
-    opacity: 0;
-    pointer-events: none; }
-  .timeline .container > header nav a:hover:after {
-    opacity: 1; }
-  .timeline .container > header nav a:hover {
-    background: #47a3da; }
   .timeline .icon-drop:before,
   .timeline .icon-arrow-left:before {
     font-family: 'fontawesome';
@@ -93,8 +53,6 @@
     -webkit-font-smoothing: antialiased;
     text-indent: 8000px;
     padding-left: 8px; }
-  .timeline .container > header nav a:hover:before {
-    color: #fff; }
   .timeline .icon-drop:before {
     content: "\e000"; }
   .timeline .icon-arrow-left:before {
