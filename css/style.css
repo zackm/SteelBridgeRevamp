@@ -44,8 +44,12 @@ body {
     border-left: 1px solid gray;
     box-shadow: 0px 5px 3px -3px #272727; }
     .nav a:hover {
-      box-shadow: 0px 5px 3px -3px #272727, inset 0px 0px 6px 3px #4d4d4d;
       color: #cccccc; }
+    .nav a:hover, .nav a.selected {
+      box-shadow: 0px 5px 3px -3px #272727, inset 0px 0px 6px 3px #4d4d4d; }
+    .nav a.selected {
+      border-left: 1px solid #676767;
+      border-right: 1px solid #676767; }
 
 #footer {
   text-align: center;

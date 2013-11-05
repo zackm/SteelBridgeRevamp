@@ -55,9 +55,15 @@ body {
 		box-shadow: 0px 5px 3px -3px darken($nav_color, 25%);
 
 		&:hover {
+			color: lighten($nav_color, 40%);
+		}
+		&:hover, &.selected {
 			box-shadow: 0px 5px 3px -3px darken($nav_color, 25%),
 						inset 0px 0px 6px 3px darken($nav_color, 10%);
-			color: lighten($nav_color, 40%);
+		}
+		&.selected {
+			border-left: 1px solid $nav_color;
+			border-right: 1px solid $nav_color;
 		}
 	}
 }
