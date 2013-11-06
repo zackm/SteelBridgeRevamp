@@ -64,6 +64,7 @@ body {
 		&.selected {
 			border-left: 1px solid $nav_color;
 			border-right: 1px solid $nav_color;
+			border-top: 1px solid $nav_color;
 		}
 	}
 }
@@ -100,6 +101,8 @@ body {
 
 article {
 	background-color: $bg_color;
+	border-top: 7px solid darken($bg_color, 13%);
+	box-shadow: 0 -1px 2px -1px lighten($bg_color, 25%);
 }
 
 .centerpiece {
