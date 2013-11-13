@@ -14,7 +14,8 @@ html, body {
   margin-top: -150px;
   /* negative value of footer height */
   height: 150px;
-  clear: both; }
+  clear: both;
+  display: block; }
 
 body {
   background-image: url(../img/wild_oliva.png); }
@@ -66,13 +67,6 @@ body {
   #footer .heading {
     color: #ccc; }
 
-.bar {
-  height: 10px; }
-  .bar.blue {
-    background-color: #0e158c; }
-  .bar.gold {
-    background-color: #8c771b; }
-
 article {
   background-color: #4d4d4d;
   border-top: 7px solid #2c2c2c;
@@ -90,9 +84,6 @@ article {
     width: 80px;
     height: 80px; }
 
-.temp-spacer {
-  width: 60px; }
-
 .page-title {
   color: white;
   text-align: center;
@@ -104,9 +95,6 @@ article {
     font-weight: normal; }
 
 .pure-menu {
-  text-align: center; }
-
-.team-pic {
   text-align: center; }
 
 /* Index (Home) Page */

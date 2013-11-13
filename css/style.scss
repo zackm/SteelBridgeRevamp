@@ -89,16 +89,6 @@ body {
 	}
 }
 
-.bar {
-	height: 10px;
-	&.blue {
-		background-color: $blue;
-	}
-	&.gold {
-		background-color: $gold;
-	}
-}
-
 article {
 	background-color: $bg_color;
 	border-top: 7px solid darken($bg_color, 13%);
@@ -121,9 +111,6 @@ article {
 		height: 80px;
 	}
 }
-.temp-spacer {
-	width: 60px;
-}
 
 .page-title {
 	color: white;
@@ -138,9 +125,6 @@ article {
 	}
 }
 .pure-menu {
-	text-align: center;
-}
-.team-pic {
 	text-align: center;
 }
 
