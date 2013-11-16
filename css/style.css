@@ -21,18 +21,30 @@ body {
   background-image: url(../img/wild_oliva.png); }
 
 /* Navigation Bar */
-.nav {
+header .home {
+  text-align: center;
+  font-size: 1.3em;
+  padding: 10px; }
+  header .home a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none; }
+  header .home .ucb {
+    font-size: .85em;
+    font-weight: normal;
+    display: block; }
+header .nav {
   padding-bottom: 15px;
   text-align: center; }
-  .nav ul {
+  header .nav ul {
     list-style-type: none; }
-    .nav ul li {
+    header .nav ul li {
       display: inline; }
-    .nav ul li:first-child a {
+    header .nav ul li:first-child a {
       border-radius: 4px 0px 0px 4px; }
-    .nav ul li:last-child a {
+    header .nav ul li:last-child a {
       border-radius: 0px 4px 4px 0px; }
-  .nav a {
+  header .nav a {
     margin-right: -4px;
     padding: 12px 60px;
     background: linear-gradient(#737373 5%, #4d4d4d);
@@ -44,11 +56,11 @@ body {
     border-top: 1px solid gray;
     border-left: 1px solid gray;
     box-shadow: 0px 5px 3px -3px #272727; }
-    .nav a:hover {
+    header .nav a:hover {
       color: #cccccc; }
-    .nav a:hover, .nav a.selected {
+    header .nav a:hover, header .nav a.selected {
       box-shadow: 0px 5px 3px -3px #272727, inset 0px 0px 6px 3px #4d4d4d; }
-    .nav a.selected {
+    header .nav a.selected {
       border-left: 1px solid #676767;
       border-right: 1px solid #676767;
       border-top: 1px solid #676767; }
@@ -83,16 +95,6 @@ article {
   .centerpiece img {
     width: 80px;
     height: 80px; }
-
-.page-title {
-  color: white;
-  text-align: center;
-  font-size: 1.3em;
-  padding: 10px;
-  font-weight: bold; }
-  .page-title .ucb {
-    font-size: .85em;
-    font-weight: normal; }
 
 .pure-menu {
   text-align: center; }

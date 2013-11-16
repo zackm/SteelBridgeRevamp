@@ -26,46 +26,66 @@ body {
 }
 
 /* Navigation Bar */
-.nav {
-	padding-bottom: 15px;
-	text-align: center;
-	ul {
-		list-style-type: none;
-		li {
-			display: inline;
+header {
+	// Home Button
+	.home {
+		text-align: center;
+		font-size: 1.3em;
+		padding: 10px;
+		a {
+			color: white;
+			font-weight: bold;
+			text-decoration: none;
 		}
-		li:first-child a {
-			border-radius: 4px 0px 0px 4px;
-		}
-		li:last-child a {
-			border-radius: 0px 4px 4px 0px;
+
+		.ucb {
+			font-size: .85em;
+			font-weight: normal;
+			display: block;
 		}
 	}
 
-	a {
-		margin-right: -4px;
-		padding: 12px 60px;
-		background: linear-gradient(lighten($nav_color, 5%) 5%,  darken($nav_color, 10%));
-		text-transform: uppercase;
-		text-decoration: none;
-		color: lighten($nav_color, 28%);
-		text-shadow: 0px 1px darken($nav_color, 15%);
-		letter-spacing: .05em;
-		border-top: 1px solid lighten($nav_color, 10%);
-		border-left: 1px solid lighten($nav_color, 10%);
-		box-shadow: 0px 5px 3px -3px darken($nav_color, 25%);
+	.nav {
+		padding-bottom: 15px;
+		text-align: center;
+		ul {
+			list-style-type: none;
+			li {
+				display: inline;
+			}
+			li:first-child a {
+				border-radius: 4px 0px 0px 4px;
+			}
+			li:last-child a {
+				border-radius: 0px 4px 4px 0px;
+			}
+		}
 
-		&:hover {
-			color: lighten($nav_color, 40%);
-		}
-		&:hover, &.selected {
-			box-shadow: 0px 5px 3px -3px darken($nav_color, 25%),
-						inset 0px 0px 6px 3px darken($nav_color, 10%);
-		}
-		&.selected {
-			border-left: 1px solid $nav_color;
-			border-right: 1px solid $nav_color;
-			border-top: 1px solid $nav_color;
+		a {
+			margin-right: -4px;
+			padding: 12px 60px;
+			background: linear-gradient(lighten($nav_color, 5%) 5%,  darken($nav_color, 10%));
+			text-transform: uppercase;
+			text-decoration: none;
+			color: lighten($nav_color, 28%);
+			text-shadow: 0px 1px darken($nav_color, 15%);
+			letter-spacing: .05em;
+			border-top: 1px solid lighten($nav_color, 10%);
+			border-left: 1px solid lighten($nav_color, 10%);
+			box-shadow: 0px 5px 3px -3px darken($nav_color, 25%);
+
+			&:hover {
+				color: lighten($nav_color, 40%);
+			}
+			&:hover, &.selected {
+				box-shadow: 0px 5px 3px -3px darken($nav_color, 25%),
+							inset 0px 0px 6px 3px darken($nav_color, 10%);
+			}
+			&.selected {
+				border-left: 1px solid $nav_color;
+				border-right: 1px solid $nav_color;
+				border-top: 1px solid $nav_color;
+			}
 		}
 	}
 }
@@ -113,18 +133,6 @@ article {
 	}
 }
 
-.page-title {
-	color: white;
-	text-align: center;
-	font-size: 1.3em;
-	padding: 10px;
-	font-weight: bold;
-
-	.ucb {
-		font-size: .85em;
-		font-weight: normal;
-	}
-}
 .pure-menu {
 	text-align: center;
 }
