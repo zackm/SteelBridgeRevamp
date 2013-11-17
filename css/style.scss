@@ -23,25 +23,60 @@ html, body {
 
 body {
 	background-image: url(../img/wild_oliva.png);
+	font-family: 'Helvetica Neue';
 }
 
 /* Navigation Bar */
 header {
 	// Home Button
 	.home {
-		text-align: center;
-		font-size: 1.3em;
-		padding: 10px;
+		.team {
+			padding-top: 15px;
+			font-size: 1.7em;
+		}
+		padding-top: 40px;
+		padding-left: 200px;
+		padding-bottom: 40px;
 		a {
 			color: white;
-			font-weight: bold;
 			text-decoration: none;
 		}
 
 		.ucb {
-			font-size: .85em;
+			font-size: 1em;
 			font-weight: normal;
 			display: block;
+		}
+		.seal {
+			width: 80px;
+			height: 80px;
+			padding-right: 10px;
+			float: left;
+			position: relative;
+			top: -16px;
+		}
+	}
+
+	.nav-2 {
+		width: 100%;
+		background-color: lighten($steel_gray, 40%);
+		text-align: center;
+		padding: 1px 0px;
+		margin-bottom: 25px;
+		ul {
+			list-style-type: none;
+			li {
+				display: inline;
+				padding: 10px 40px;
+			}
+		}
+		a {
+			font-size: 1.1em;
+			color: $steel_gray;
+			text-decoration: none;
+			&:hover {
+				color: lighten($steel_gray, 20%);
+			}
 		}
 	}
 
