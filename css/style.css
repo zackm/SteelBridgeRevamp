@@ -41,13 +41,13 @@ header .nav {
     header .nav ul li {
       display: inline; }
     header .nav ul li:first-child a {
-      border-radius: 4px 0px 0px 4px; }
+      border-radius: 3px 0px 0px 3px; }
     header .nav ul li:last-child a {
-      border-radius: 0px 4px 4px 0px; }
+      border-radius: 0px 3px 3px 0px; }
   header .nav a {
     margin-right: -4px;
     padding: 12px 60px;
-    background: linear-gradient(#737373 5%, #4d4d4d);
+    background: linear-gradient(#737373 5%, #525252);
     text-transform: uppercase;
     text-decoration: none;
     color: #aeaeae;
@@ -107,6 +107,9 @@ article {
 
 #slides {
   padding-top: 35px; }
+
+.temp-photo {
+  width: 100%; }
 
 /* History Page */
 .timeline {

@@ -48,23 +48,24 @@ header {
 	.nav {
 		padding-bottom: 15px;
 		text-align: center;
+		$nav_rad: 3px;
 		ul {
 			list-style-type: none;
 			li {
 				display: inline;
 			}
 			li:first-child a {
-				border-radius: 4px 0px 0px 4px;
+				border-radius: $nav_rad 0px 0px $nav_rad;
 			}
 			li:last-child a {
-				border-radius: 0px 4px 4px 0px;
+				border-radius: 0px $nav_rad $nav_rad 0px;
 			}
 		}
 
 		a {
 			margin-right: -4px;
 			padding: 12px 60px;
-			background: linear-gradient(lighten($nav_color, 5%) 5%,  darken($nav_color, 10%));
+			background: linear-gradient(lighten($nav_color, 5%) 5%,  darken($nav_color, 8%));
 			text-transform: uppercase;
 			text-decoration: none;
 			color: lighten($nav_color, 28%);
@@ -148,6 +149,10 @@ article {
 }
 #slides {
 	padding-top: 35px;
+}
+
+.temp-photo {
+	width: 100%;
 }
 
 /* History Page */
