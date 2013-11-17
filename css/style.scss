@@ -23,7 +23,7 @@ html, body {
 
 body {
 	background-image: url(../img/wild_oliva.png);
-	font-family: 'Helvetica Neue';
+	font-family: 'helvetica neue', 'muli', sans-serif;
 }
 
 /* Navigation Bar */
@@ -61,21 +61,26 @@ header {
 		width: 100%;
 		background-color: lighten($steel_gray, 40%);
 		text-align: center;
-		padding: 1px 0px;
-		margin-bottom: 25px;
 		ul {
+			box-shadow: 0px 0px 0px 15px lighten($steel_gray, 40%);
 			list-style-type: none;
 			li {
 				display: inline;
-				padding: 10px 40px;
 			}
 		}
 		a {
+			margin-left: -4px;
+			padding: 15px 40px;
 			font-size: 1.1em;
 			color: $steel_gray;
 			text-decoration: none;
 			&:hover {
 				color: lighten($steel_gray, 20%);
+			}
+			background-color: lighten($steel_gray, 40%);
+			&.selected {
+				background-color: $bg_color;
+				color: lighten($steel_gray, 50%);
 			}
 		}
 	}
@@ -147,12 +152,13 @@ header {
 }
 
 article {
+	margin-top: -2px;
+	padding-top: 45px;
 	background-color: $bg_color;
-	border-top: 7px solid darken($bg_color, 13%);
-	box-shadow: 0 -1px 2px -1px lighten($bg_color, 25%);
 
 	&.sponsors {
 		background-color: #aaa;
+		padding-bottom: 75px;
 	}
 	&.history {
 		background-color: #777777;
@@ -214,6 +220,19 @@ article {
 			position: absolute;
 			top: 0;
 			bottom: 0;
+		}
+	}
+}
+article.sponsors {
+	.message {
+		h2 {
+			text-align: center;
+		}
+		.pure-u-3-5 {
+			margin-left: auto;
+			margin-right: auto;
+			padding: 8px;
+			text-align: center;
 		}
 	}
 }
