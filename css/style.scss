@@ -1,5 +1,8 @@
 @import "shared";
 @import "index";
+@import "history";
+@import "timeline";
+@import "timeline-base";
 
 html, body {
 	height: 100%;
@@ -203,12 +206,6 @@ article {
 
 .pure-menu {
 	text-align: center;
-}
-
-/* History Page */
-.timeline {
-	padding-top: 25px;
-	padding-bottom: $footer_height;
 }
 
 /* Photos Page */

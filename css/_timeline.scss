@@ -9,7 +9,7 @@
 	&:before {
 		content: '';
 		position: absolute;
-		top: 0;
+		top: -75px;
 		bottom: 0;
 		width: 10px;
 		background: $timeline_extra;
@@ -87,24 +87,23 @@
 
 	/* The icons */
 	li .cbp_tmicon {
-		width: 40px;
-		height: 40px;
-		font-family: 'ecoico';
+		width: $icon_size;
+		height: $icon_size;
 		speak: none;
 		font-style: normal;
 		font-weight: normal;
 		font-variant: normal;
 		text-transform: none;
 		font-size: 1.4em;
-		line-height: 40px;
+		line-height: 60px;
 		-webkit-font-smoothing: antialiased;
-		position: absolute;
+		position: absolute; // change to absolute later
 		color: #fff;
-		background: $timeline_icon;
+		// background: $timeline_icon;
 		border-radius: 50%;
-		box-shadow: 0 0 0 8px $timeline_extra;
+		box-shadow: 0 0 0 4px $timeline_extra;
 		text-align: center;
-		left: 17%;
+		left: 15.7%;
 		top: 0;
 		margin: 0 0 0 -25px;
 	}
@@ -143,13 +142,13 @@
 			right: auto;
 			left: 20px;
 			border-right-color: transparent;
-			border-bottom-color: #3594cb;
+			border-bottom-color: $timeline1;
 			top: -20px;
 		}
 
 		li:nth-child(odd) .cbp_tmlabel:after {
 			border-right-color: transparent;
-			border-bottom-color: #6cbfee;
+			border-bottom-color: $timeline2;
 		}
 
 		li .cbp_tmicon {
