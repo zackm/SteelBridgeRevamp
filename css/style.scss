@@ -77,15 +77,16 @@ header {
 			margin-left: -4px;
 			padding: 15px 40px;
 			font-size: 1.1em;
-			color: $steel_gray;
+			color: $bg_color;
 			text-decoration: none;
 			&:hover {
 				color: $bg_color;
+				background-color: rgba($nav_color2, .9);
 			}
-			background-color: $nav_color2;
+			// background-color: $nav_color2;
 			&.selected {
 				background-color: $bg_color;
-				color: $nav_color2;
+				color: rgba($nav_color2, .9);
 			}
 		}
 	}
