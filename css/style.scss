@@ -1,7 +1,9 @@
 @import "shared";
+@import "index";
 
 html, body {
 	height: 100%;
+	min-width: 768px; // starts breaking when skinnier than this
 }
 
 #wrap {
@@ -18,7 +20,7 @@ html, body {
 	margin-top: -$footer_height; /* negative value of footer height */
 	height: $footer_height;
 	clear: both;
-	background-color: lighten($steel_gray, 30%);
+	display: block;
 } 
 
 body {
@@ -177,26 +179,6 @@ article {
 
 .pure-menu {
 	text-align: center;
-}
-
-/* Index (Home) Page */
-.welcome {
-	margin-bottom: 100px;
-	.pure-u-1-3 {
-		h3 {
-			text-align: center;
-		}
-	}
-}
-#slider {
-	.item {
-		text-align: center;
-		img {
-			margin-left: auto;
-			margin-right: auto;
-		}
-	}
-
 }
 
 /* History Page */

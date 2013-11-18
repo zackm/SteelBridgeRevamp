@@ -1,5 +1,23 @@
+/* Index (Home) Page */
+.welcome {
+  margin-bottom: 100px; }
+  .welcome .pure-u-1-3 h3 {
+    text-align: center; }
+
+#slider {
+  margin-bottom: 64px;
+  padding-bottom: 40px; }
+  #slider .carousel-indicators {
+    bottom: -4px; }
+  #slider .item {
+    text-align: center; }
+    #slider .item img {
+      margin-left: auto;
+      margin-right: auto; }
+
 html, body {
-  height: 100%; }
+  height: 100%;
+  min-width: 768px; }
 
 #wrap {
   min-height: 100%; }
@@ -15,7 +33,7 @@ html, body {
   /* negative value of footer height */
   height: 50px;
   clear: both;
-  background-color: #7a7a7a; }
+  display: block; }
 
 body {
   background-image: url(../img/wild_oliva.png);
@@ -130,18 +148,6 @@ article {
 
 .pure-menu {
   text-align: center; }
-
-/* Index (Home) Page */
-.welcome {
-  margin-bottom: 100px; }
-  .welcome .pure-u-1-3 h3 {
-    text-align: center; }
-
-#slider .item {
-  text-align: center; }
-  #slider .item img {
-    margin-left: auto;
-    margin-right: auto; }
 
 /* History Page */
 .timeline {
