@@ -31,7 +31,7 @@ body {
 /* Navigation Bar */
 header {
 	// Home Button
-	.home {
+	.home-2 {
 		.team {
 			padding-top: 15px;
 			font-size: 1.7em;
@@ -84,6 +84,30 @@ header {
 				background-color: $bg_color;
 				color: $nav_color2;
 			}
+		}
+	}
+
+	.home {
+		.team {
+			padding-top: 15px;
+			font-size: 1.7em;
+		}
+		text-align: center;
+		padding-top: 20px;
+
+		padding-bottom: 20px;
+		a {
+			color: white;
+			text-decoration: none;
+		}
+
+		.ucb {
+			font-size: 1em;
+			font-weight: normal;
+			display: block;
+		}
+		.seal {
+			display: none;
 		}
 	}
 
