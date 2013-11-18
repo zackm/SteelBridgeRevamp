@@ -183,6 +183,21 @@ header {
 	.heading {
 		color: #ccc;
 	}
+	span.ocf {
+		float: right;
+		position: relative;
+		top: -25px;
+		padding: 5px 15px;
+		background-color: darken($bg_color, 10%);
+		border-radius: 2px 0px 0px 2px;
+		box-shadow: 0px 0px 3px 1px darken($bg_color, 27%);
+		&:hover {
+			background-color: darken($bg_color, 5%);
+		}
+		a {
+			color: lighten($bg_color, 15%);
+		}
+	}
 }
 
 article {

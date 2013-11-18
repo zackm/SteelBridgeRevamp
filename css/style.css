@@ -215,8 +215,7 @@ article.about {
     padding: 5px 20px;
     background-color: gray; }
     article.about .description h2 {
-      color: #122a49;
-      text-shadow: 1px 1px 0.5px #5a5a5a; }
+      color: #122a49; }
   article.about .row {
     margin-bottom: 25px; }
   article.about .shadow-right {
@@ -397,6 +396,18 @@ header .nav {
     list-style-type: none; }
   #footer .heading {
     color: #ccc; }
+  #footer span.ocf {
+    float: right;
+    position: relative;
+    top: -25px;
+    padding: 5px 15px;
+    background-color: #4d4d4d;
+    border-radius: 2px 0px 0px 2px;
+    box-shadow: 0px 0px 3px 1px #222222; }
+    #footer span.ocf:hover {
+      background-color: #5a5a5a; }
+    #footer span.ocf a {
+      color: #8d8d8d; }
 
 article {
   margin-top: -2px;
