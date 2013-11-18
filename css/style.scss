@@ -23,7 +23,7 @@ html, body {
 
 body {
 	background-image: url(../img/wild_oliva.png);
-	font-family: 'helvetica neue', 'muli', sans-serif;
+	font-family: 'helvetica neue', sans-serif;
 }
 
 /* Navigation Bar */
@@ -189,7 +189,13 @@ article {
 	}
 }
 #slider {
-	width: 100%;
+	.item {
+		text-align: center;
+		img {
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
 
 }
 
