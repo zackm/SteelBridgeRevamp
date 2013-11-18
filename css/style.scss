@@ -59,10 +59,10 @@ header {
 
 	.nav-2 {
 		width: 100%;
-		background-color: lighten($steel_gray, 40%);
+		background-color: $nav_color2;
 		text-align: center;
 		ul {
-			box-shadow: 0px 0px 0px 15px lighten($steel_gray, 40%);
+			box-shadow: 0px 0px 0px 15px $nav_color2;
 			list-style-type: none;
 			li {
 				display: inline;
@@ -75,12 +75,12 @@ header {
 			color: $steel_gray;
 			text-decoration: none;
 			&:hover {
-				color: lighten($steel_gray, 20%);
+				color: $bg_color;
 			}
-			background-color: lighten($steel_gray, 40%);
+			background-color: $nav_color2;
 			&.selected {
 				background-color: $bg_color;
-				color: lighten($steel_gray, 50%);
+				color: $nav_color2;
 			}
 		}
 	}
@@ -188,12 +188,9 @@ article {
 		}
 	}
 }
-#slides {
-	padding-top: 35px;
-}
-
-.temp-photo {
+#slider {
 	width: 100%;
+
 }
 
 /* History Page */
@@ -202,7 +199,7 @@ article {
 	padding-bottom: $footer_height;
 }
 
-// Photos Page
+/* Photos Page */
 
 /* Sponsors Page */
 .pure-g.sponsors {
