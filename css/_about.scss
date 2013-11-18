@@ -1,0 +1,36 @@
+article.about {
+	margin-bottom: $footer_height + 15px;
+	padding-bottom: 10px;
+
+	img {
+		max-width: 100%;
+	}
+
+	.description {
+		padding: 5px 20px;
+		background-color: lighten($bg_color, 10%);
+		h2 {
+			color: $timeline2;
+			text-shadow: 1px 1px .5px darken($bg_color, 5%);
+		}
+	}
+
+	.row {
+		margin-bottom: 25px;
+	}
+	.shadow-right {
+		box-shadow: inset 0 1px rgba(255,255,255,0.1), 0 2px 3px darken(#ccc, 45%);
+	}
+	.shadow-left {
+		box-shadow: inset 0 1px rgba(255,255,255,0.1), 0 2px 3px darken(#ccc, 45%);
+	}
+
+	.officers {
+		h2 {
+			text-align: center;
+		}
+		li {
+			padding-bottom: 5px;
+		}
+	}
+}
