@@ -1,0 +1,16 @@
+article.photos {
+	margin-bottom: $footer_height + 15px;
+	padding-bottom: 10px;
+
+	img {
+		max-width: 100%;
+	}
+
+	.row {
+		margin-bottom: 30px;
+		h1 {
+			color: #ccc;
+			margin-left: 20px;
+		}
+	}
+}

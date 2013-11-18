@@ -253,6 +253,17 @@ article.sponsors {
     margin-right: auto;
     text-align: center; }
 
+article.photos {
+  margin-bottom: 65px;
+  padding-bottom: 10px; }
+  article.photos img {
+    max-width: 100%; }
+  article.photos .row {
+    margin-bottom: 30px; }
+    article.photos .row h1 {
+      color: #ccc;
+      margin-left: 20px; }
+
 html, body {
   height: 100%;
   min-width: 768px; }
@@ -402,5 +413,3 @@ article {
 
 .pure-menu {
   text-align: center; }
-
-/* Photos Page */
