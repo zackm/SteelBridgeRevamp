@@ -4,6 +4,7 @@
 @import "timeline";
 @import "timeline-base";
 @import "about";
+@import "sponsors";
 
 html, body {
 	height: 100%;
@@ -212,37 +213,5 @@ article {
 
 /* Photos Page */
 
-/* Sponsors Page */
-.pure-g.sponsors {
-	.pure-u-1-5 .logo {
-		width: 250px;
-		height: 250px;
-		background-color: #ccc;
-		margin: 6px 6px;
-		position: relative;
-		box-shadow: inset 0 1px rgba(255,255,255,0.2), 0 1px 2px darken(#ccc, 35%);
-		img {
-			margin: auto;
-			max-height: 250px;
-			max-width: 250px;
-			position: absolute;
-			top: 0;
-			bottom: 0;
-		}
-	}
-}
-article.sponsors {
-	.message {
-		h2 {
-			text-align: center;
-		}
-		.pure-u-3-5 {
-			margin-left: auto;
-			margin-right: auto;
-			padding: 8px;
-			text-align: center;
-		}
-	}
-}
 
 // Contact Page
