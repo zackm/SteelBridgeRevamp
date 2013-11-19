@@ -38,7 +38,7 @@ body {
 /* Navigation Bar */
 header {
 	// Home Button
-	.home-2 {
+	.home {
 		.team {
 			padding-top: 15px;
 			font-size: 1.8em;
@@ -66,7 +66,7 @@ header {
 		}
 	}
 
-	.nav-2 {
+	.nav {
 		width: 100%;
 		background-color: $nav_color2;
 		text-align: center;
@@ -95,74 +95,6 @@ header {
 		}
 	}
 
-	.home {
-		.team {
-			padding-top: 15px;
-			font-size: 1.7em;
-		}
-		text-align: center;
-		padding-top: 20px;
-
-		padding-bottom: 20px;
-		a {
-			color: white;
-			text-decoration: none;
-		}
-
-		.ucb {
-			font-size: 1em;
-			font-weight: normal;
-			display: block;
-		}
-		.seal {
-			display: none;
-		}
-	}
-
-	.nav {
-		padding-bottom: 15px;
-		text-align: center;
-		$nav_rad: 3px;
-		ul {
-			list-style-type: none;
-			li {
-				display: inline;
-			}
-			li:first-child a {
-				border-radius: $nav_rad 0px 0px $nav_rad;
-			}
-			li:last-child a {
-				border-radius: 0px $nav_rad $nav_rad 0px;
-			}
-		}
-
-		a {
-			margin-right: -4px;
-			padding: 12px 60px;
-			background: linear-gradient(lighten($nav_color, 5%) 5%,  darken($nav_color, 8%));
-			text-transform: uppercase;
-			text-decoration: none;
-			color: lighten($nav_color, 28%);
-			text-shadow: 0px 1px darken($nav_color, 15%);
-			letter-spacing: .05em;
-			border-top: 1px solid lighten($nav_color, 10%);
-			border-left: 1px solid lighten($nav_color, 10%);
-			box-shadow: 0px 5px 3px -3px darken($nav_color, 25%);
-
-			&:hover {
-				color: lighten($nav_color, 40%);
-			}
-			&:hover, &.selected {
-				box-shadow: 0px 5px 3px -3px darken($nav_color, 25%),
-							inset 0px 0px 6px 3px darken($nav_color, 10%);
-			}
-			&.selected {
-				border-left: 1px solid $nav_color;
-				border-right: 1px solid $nav_color;
-				border-top: 1px solid $nav_color;
-			}
-		}
-	}
 }
 
 
