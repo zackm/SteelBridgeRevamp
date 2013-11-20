@@ -267,6 +267,8 @@ article.contact {
   padding-bottom: 35px; }
   article.contact .pure-g {
     text-align: center; }
+  article.contact ul {
+    list-style-type: none; }
 
 html, body {
   height: 100%;
