@@ -67,6 +67,20 @@
 		<div class="heading">2013</div>
 	</div>
 
+<script>
+	$(document).on("ready", function() {
+		$(document).keydown(function(e) {
+			switch(e.which) {
+				case 69: // 'e' launches easter egg
+				window.open('/suchwow');
+				break;
+
+				default: return;
+			}
+			e.preventDefault();
+		});
+	});
+</script>
 
 </body>
 </html>

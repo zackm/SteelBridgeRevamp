@@ -1,0 +1,12 @@
+body {
+	background-image: url(jump.gif);
+}
+.title {
+	font-size: 4em;
+	color: white;
+	font-weight: bold;
+}
+p {
+	color: white;
+	font-size: 2em;
+}
