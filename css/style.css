@@ -212,8 +212,8 @@ article.about {
   article.about img {
     max-width: 100%; }
   article.about .description {
-    padding: 5px 20px;
-    background-color: gray; }
+    background-color: #c3c3c3;
+    padding: 5px 20px; }
     article.about .description h2 {
       color: #122a49; }
   article.about .row {
@@ -329,13 +329,13 @@ header .nav {
     margin-left: -4px;
     padding: 15px 40px;
     font-size: 1.1em;
-    color: #676767;
+    color: #aaaaaa;
     text-decoration: none; }
     header .nav a:hover {
-      color: #9a9a9a;
+      color: #dddddd;
       background-color: rgba(39, 39, 39, 0.9); }
     header .nav a.selected {
-      background-color: #676767;
+      background-color: #aaaaaa;
       color: rgba(39, 39, 39, 0.9); }
 
 #footer {
@@ -356,23 +356,20 @@ header .nav {
     position: relative;
     top: -25px;
     padding: 5px 15px;
-    background-color: #4d4d4d;
+    background-color: #909090;
     border-radius: 2px 0px 0px 2px;
-    box-shadow: 0px 0px 3px 1px #222222; }
+    box-shadow: 0px 0px 3px 1px #656565; }
     #footer span.ocf:hover {
-      background-color: #5a5a5a; }
+      background-color: #9d9d9d; }
     #footer span.ocf a {
-      color: #8d8d8d; }
+      color: #d0d0d0; }
 
 article {
   margin-top: -2px;
   padding-top: 45px;
-  background-color: #676767; }
+  background-color: #aaaaaa; }
   article.sponsors {
-    background-color: #aaa;
     padding-bottom: 75px; }
-  article.history {
-    background-color: #777777; }
 
 .centerpiece {
   text-align: center;

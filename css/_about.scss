@@ -7,8 +7,8 @@ article.about {
 	}
 
 	.description {
-		padding: 5px 20px;
 		background-color: lighten($bg_color, 10%);
+		padding: 5px 20px;
 		h2 {
 			color: $timeline2;
 		}
@@ -18,9 +18,12 @@ article.about {
 		margin-bottom: 25px;
 	}
 	.shadow-right {
+		// background-color: lighten($bg_color, 10%);
+		// for img should do ::after stuff
 		box-shadow: inset 0 1px rgba(255,255,255,0.1), 0 2px 3px darken(#ccc, 45%);
 	}
 	.shadow-left {
+		// background-color: lighten($bg_color, 10%);
 		box-shadow: inset 0 1px rgba(255,255,255,0.1), 0 2px 3px darken(#ccc, 45%);
 	}
 
