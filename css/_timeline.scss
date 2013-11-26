@@ -55,6 +55,7 @@
 		line-height: 1.4;
 		position: relative;
 		border-radius: 5px;
+		top: -70px;
 	}
 
 	li:nth-child(odd) .cbp_tmlabel {
@@ -97,14 +98,14 @@
 		font-size: 1.4em;
 		line-height: 60px;
 		-webkit-font-smoothing: antialiased;
-		position: absolute; // change to absolute later
+		position: relative; // change to absolute later
 		color: #fff;
 		// background: $timeline_icon;
 		border-radius: 50%;
 		box-shadow: 0 0 0 4px $timeline_extra;
 		text-align: center;
-		left: 15.7%;
-		top: 0;
+		left: 13.3%;
+		top: -10px;
 		margin: 0 0 0 -25px;
 	}
 
@@ -132,8 +133,9 @@
 		}
 
 		li .cbp_tmlabel {
-			margin: 0 0 30px 0;
+			margin: 0 0 55px 0;
 			padding: 1em;
+			top: 0px;
 			font-weight: 400;
 			font-size: 95%;
 		}
@@ -155,6 +157,7 @@
 			position: relative;
 			float: right;
 			left: auto;
+			top: -35px;
 			margin: -55px 5px 0 0px;
 		}	
 	}
