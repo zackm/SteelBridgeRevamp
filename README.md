@@ -25,7 +25,7 @@ Editing Instructions:
 
 TODO List for each year:
 - update history to include past year
-- add more photos albums (flickr? picasa?)
+- add more photos albums (flickr, get credentials from past webmaster/PM)
 - check contact info
 - change meeting location
 
