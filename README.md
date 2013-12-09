@@ -5,7 +5,6 @@ New Version of Cal's Steel Bridge Team Website
 
 Skills Required to make changes to this site:
 - Able to use a basic text editor like Sublime Text, TextMate, Emacs, or Notepad++...
-- Able to read (no really, reading the comments will explain a lot)
 - Basic image editing (resizing, cropping)
 - Able to use an FTP client (like Cyberduck, or the terminal if you're intense)
 - Access to a phone and the previous webmaster if everything goes horribly wrong
@@ -14,7 +13,7 @@ Site Notes:
 - basic static html files
 - CSS written in SASS (link here)
 - you can write CSS with normal syntax in .scss files, but then you have to compile it into a .css file before using the styles on the production site.
-- css and js files are compressed, please make new compressed versions after making changes (inst here)
+- css and js files are compressed, please make new compressed versions after making changes (instructions here)
 
 Editing Instructions:
 - hosted on Berkeley's OCF
@@ -26,8 +25,8 @@ Editing Instructions:
 TODO List for each year:
 - update history to include past year
 - add more photos albums (flickr, get credentials from past webmaster/PM)
-- check contact info
-- change meeting location
+- update contact info & officers
+- if desired, update slideshow on homepage
 
 Contact Instructions:
 - last website maintainer: Zack Mayeda (Fall 2013)

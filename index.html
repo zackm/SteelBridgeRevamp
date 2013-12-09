@@ -83,14 +83,17 @@
 
 	<footer id="footer">
 		<div class="heading">University of California, Berkeley</div>
-		<div class="heading">2013</div>
+		<div class="heading" id="current-year"></div>
 		<span class="ocf"><a href="http://ocf.berkeley.edu">Hosted by OCF</a></span>
 	</footer>
 
 <script>
-// Script to initialize photo slider
 $(document).ready(function(){
+	// Script to initialize photo slider
 	$("#slider").carousel();
+
+	// Auto Set current year in footer
+	$("#current-year").text(new Date().getFullYear());
 });
 </script>
 
