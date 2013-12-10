@@ -305,14 +305,16 @@ header .home {
   padding-bottom: 40px; }
   header .home .team {
     padding-top: 15px;
-    font-size: 1.8em; }
+    font-size: 1.8em;
+    text-shadow: 1px 1px 3px black; }
   header .home a {
     color: white;
     text-decoration: none; }
   header .home .ucb {
     font-size: 1.1em;
     font-weight: normal;
-    display: block; }
+    display: block;
+    text-shadow: 1px 1px 2px black; }
   header .home .seal {
     width: 80px;
     height: 80px;
