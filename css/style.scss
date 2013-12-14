@@ -107,6 +107,7 @@ header {
 	}
 	text-align: center;
 	font-size: .9em;
+	text-shadow: 1px 1px 2px darken($bg_color, 50%);
 	a {
 		text-decoration: none;
 		color: #555555;
@@ -124,7 +125,7 @@ header {
 		padding: 5px 15px;
 		background-color: darken($bg_color, 10%);
 		border-radius: 2px 0px 0px 2px;
-		box-shadow: 0px 0px 3px 1px darken($bg_color, 27%);
+		box-shadow: 0px 0px 3px 1px darken($bg_color, 55%);
 		&:hover {
 			background-color: darken($bg_color, 5%);
 		}
