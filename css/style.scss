@@ -162,3 +162,18 @@ article {
 .pure-menu {
 	text-align: center;
 }
+
+article {
+	a {
+		color: white;
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+			color: lighten($timeline2, 55%);
+		}
+		&:visited {
+			color: $bg_color;
+		}
+	}
+}

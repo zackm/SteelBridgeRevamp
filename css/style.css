@@ -158,17 +158,11 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
-  .timeline body, .timeline html {
-    font-size: 100%;
-    padding: 0;
-    margin: 0; }
   .timeline .clearfix:before, .timeline .clearfix:after {
     content: " ";
     display: table; }
   .timeline .clearfix:after {
     clear: both; }
-  .timeline a:hover {
-    color: #000; }
   .timeline .main,
   .timeline .container > header {
     width: 95%;
@@ -390,3 +384,12 @@ article {
 
 .pure-menu {
   text-align: center; }
+
+article a {
+  color: white;
+  text-decoration: none; }
+  article a:hover {
+    text-decoration: underline;
+    color: #90b4e4; }
+  article a:visited {
+    color: #aaaaaa; }
