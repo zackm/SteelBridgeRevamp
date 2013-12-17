@@ -386,10 +386,17 @@ article {
   text-align: center; }
 
 article a {
-  color: white;
+  color: #122a49;
   text-decoration: none; }
   article a:hover {
     text-decoration: underline;
-    color: #90b4e4; }
+    color: #214d86; }
   article a:visited {
+    color: #4d4d4d; }
+
+article.history a {
+  color: white; }
+  article.history a:hover {
+    color: #90b4e4; }
+  article.history a:visited {
     color: #aaaaaa; }

@@ -163,13 +163,27 @@ article {
 	text-align: center;
 }
 
+// Link Styles
 article {
 	a {
-		color: white;
+		color: $timeline2;
 		text-decoration: none;
 
 		&:hover {
 			text-decoration: underline;
+			color: lighten($timeline2, 15%);
+		}
+
+		&:visited {
+			color: lighten(black, 30%);
+		}
+	}
+}
+article.history {
+	a {
+		color: white;
+
+		&:hover {
 			color: lighten($timeline2, 55%);
 		}
 		&:visited {
