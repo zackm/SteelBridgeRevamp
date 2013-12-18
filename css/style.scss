@@ -50,6 +50,10 @@ header {
 		a {
 			color: white;
 			text-decoration: none;
+			&:hover {
+				color: lighten($timeline2, 65%);
+			}
+			transition: color .3s ease;
 		}
 
 		.ucb {

@@ -305,7 +305,10 @@ header .home {
     text-shadow: 1px 1px 3px black; }
   header .home a {
     color: white;
-    text-decoration: none; }
+    text-decoration: none;
+    transition: color .3s ease; }
+    header .home a:hover {
+      color: #b9d0ee; }
   header .home .ucb {
     font-size: 1.1em;
     font-weight: normal;
