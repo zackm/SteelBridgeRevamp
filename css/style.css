@@ -211,7 +211,8 @@ article.about {
     max-width: 100%; }
   article.about .description {
     background-color: #c3c3c3;
-    padding: 5px 20px; }
+    padding: 5px 20px;
+    line-height: 125%; }
     article.about .description h2 {
       color: #122a49; }
   article.about .row {
@@ -395,7 +396,7 @@ article a {
     text-decoration: underline;
     color: #214d86; }
   article a:visited {
-    color: #4d4d4d; }
+    color: #595959; }
 
 article.history a {
   color: white; }
