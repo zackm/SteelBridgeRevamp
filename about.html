@@ -69,6 +69,9 @@
 
 <script>
 	$(document).on("ready", function() {
+		// Auto Set current year in footer
+		$("#current-year").text(new Date().getFullYear());
+		
 		$(document).keydown(function(e) {
 			switch(e.which) {
 				case 69: // 'e' launches easter egg
