@@ -10,6 +10,7 @@ Skills Required to make changes to this site:
 - Access to a phone and the previous webmaster if everything goes horribly wrong
 
 Site Notes:
+- update me
 - basic static html files
 - CSS written in SASS (link here)
 - you can write CSS with normal syntax in .scss files, but then you have to compile it into a .css file before using the styles on the production site.
