@@ -16,6 +16,11 @@ Site Notes:
 - you can write CSS with normal syntax in .scss files, but then you have to compile it into a .css file before using the styles on the production site.
 - css and js files are compressed, please make new compressed versions after making changes (instructions here)
 
+Files included:
+- dist/ (folder with HTML, CSS, and JS for the website. this is uploaded to the OCF servers)
+- src/ (uncompiled source code for all CSS and JS. for pros only)
+- README.md (this file)
+
 Editing Instructions:
 - hosted on Berkeley's OCF
 - FTP into OCF
