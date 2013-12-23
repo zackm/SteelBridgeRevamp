@@ -1,10 +1,8 @@
 module.exports = function(grunt) {
-	// 1. Configuration goes here
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
 
 		concat: {
-			// 2. Config for contatentating files
 			dist: {
 				src: [
 					'js/jquery-1.10.2.min.js',
