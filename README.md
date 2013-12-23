@@ -14,7 +14,7 @@ Site Notes:
 - basic static html files
 - CSS written in SASS (link here)
 - you can write CSS with normal syntax in .scss files, but then you have to compile it into a .css file before using the styles on the production site.
-- css and js files are compressed, please make new compressed versions after making changes (instructions here)
+- css and js files are compressed, please make new compressed versions after making changes (instructions here, site is built with grunt. if you know enough to edit SASS and JS, grunt is easy to use. i've configured it so that all you'll need to do is run ```grunt``` in the command line to compile all files to the correct directories.)
 
 Files included:
 - dist/ (folder with HTML, CSS, and JS for the website. this is uploaded to the OCF servers)
