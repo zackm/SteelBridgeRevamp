@@ -35,4 +35,4 @@ TODO List for each year:
 - if desired, update slideshow on homepage
 
 Contact Instructions:
-- last website maintainer: Zack Mayeda (Fall 2013)
+- last website maintainer: Zack Mayeda (Fall 2013, Spring 2014)
