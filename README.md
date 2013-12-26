@@ -4,7 +4,7 @@ SteelBridgeRevamp
 New Version of Cal's Steel Bridge Team Website
 
 Skills Required to make changes to this site:
-- Able to use a basic text editor like Sublime Text, TextMate, Emacs, or Notepad++...
+- Able to use a basic text editor like Sublime Text, TextMate, TextEdit, Emacs, or Notepad++...
 - Basic image editing (resizing, cropping)
 - Able to use an FTP client (like Cyberduck, or the terminal if you're intense)
 - Access to a phone and the previous webmaster if everything goes horribly wrong
