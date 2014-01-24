@@ -13,4 +13,12 @@ article.photos {
 			margin-left: 20px;
 		}
 	}
+
+	h1.gallery-year {
+		-webkit-transform: rotate(-90deg);
+		-mox-transform: rotate(-90deg);
+		-ms-transform: rotate(-90deg);
+
+		font-size: 4em;
+	}
 }

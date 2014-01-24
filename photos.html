@@ -37,8 +37,8 @@
 		<article class="photos">
 			<div class="pure-g row">
 				<div class="pure-u-1-6"></div>
-				<div class="pure-u-1-3">
-					<h1>2013</h1>
+				<div class="pure-u-1-6">
+					<h1 class="gallery-year">2013</h1>
 				</div>
 				<div class="pure-u-1-3">
 					<div id="gallery-2013"></div>
@@ -47,11 +47,11 @@
 
 			<div class="pure-g row">
 				<div class="pure-u-1-6"></div>
-				<div class="pure-u-1-3">
-					<img src="dist/img/shadow.jpg" alt="">
+				<div class="pure-u-1-6">
+					<h1 class="gallery-year">2012</h1>
 				</div>
 				<div class="pure-u-1-3">
-					<h1>2012</h1>
+					<div id="gallery-2012"></div>
 				</div>
 			</div>
 
@@ -75,7 +75,10 @@
 
 <style>
 	#gallery-2013 {
-		height: 320px;
+		height: 450px;
+	}
+	#gallery-2012 {
+		height: 450px;
 	}
 </style>
 
@@ -89,10 +92,13 @@ $(document).ready(function(){
 
     // Initialize Galleria
     Galleria.run('#gallery-2013', {
-
         // 2013 Set
-        flickr: 'set:72157640048187413',
-        
+        flickr: 'set:72157640101678533',
+    });
+
+    Galleria.run('#gallery-2012', {
+        // 2013 Set
+        flickr: 'set:72157640092543756',
     });
 
 });
