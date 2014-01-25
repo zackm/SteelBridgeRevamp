@@ -7,7 +7,8 @@ module.exports = function(grunt) {
 				src: [
 					'js/jquery-1.10.2.min.js',
 					'js/bootstrap.min.js',
-					'js/galleria.min.js'
+					'js/galleria.min.js',
+					'js/galleria.flickr.min.js'
 				],
 				dest: 'dist/js/prod.js'
 			}

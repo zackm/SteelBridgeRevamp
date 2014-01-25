@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="css/example.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<script src="dist/js/prod.js"></script>
+
 </head>
 <body>
 	<div id="wrap">
@@ -64,6 +65,46 @@
 					<h1>2011</h1>
 				</div>
 			</div>
+
+			<div class="pure-g row">
+				<div class="pure-u-1-6"></div>
+				<div class="pure-u-1-6">
+					<h1 class="gallery-year">2010</h1>
+				</div>
+				<div class="pure-u-1-3">
+					<div id="gallery-2010"></div>
+				</div>
+			</div>
+
+			<div class="pure-g row">
+				<div class="pure-u-1-6"></div>
+				<div class="pure-u-1-6">
+					<h1 class="gallery-year">2009</h1>
+				</div>
+				<div class="pure-u-1-3">
+					<div id="gallery-2009"></div>
+				</div>
+			</div>
+
+			<div class="pure-g row">
+				<div class="pure-u-1-6"></div>
+				<div class="pure-u-1-6">
+					<h1 class="gallery-year">2008</h1>
+				</div>
+				<div class="pure-u-1-3">
+					<div id="gallery-2008"></div>
+				</div>
+			</div>
+
+			<div class="pure-g row">
+				<div class="pure-u-1-6"></div>
+				<div class="pure-u-1-6">
+					<h1 class="gallery-year">2007</h1>
+				</div>
+				<div class="pure-u-1-3">
+					<div id="gallery-2007"></div>
+				</div>
+			</div>
 		</article>
 
 	</div>
@@ -74,10 +115,7 @@
 	</div>
 
 <style>
-	#gallery-2013 {
-		height: 450px;
-	}
-	#gallery-2012 {
+	#gallery-2013, #gallery-2012, #gallery-2011, #gallery-2010, #gallery-2009, #gallery-2008, #gallery-2007 {
 		height: 450px;
 	}
 </style>
@@ -99,6 +137,26 @@ $(document).ready(function(){
     Galleria.run('#gallery-2012', {
         // 2013 Set
         flickr: 'set:72157640092543756',
+    });
+
+    Galleria.run('#gallery-2010', {
+        // 2013 Set
+        flickr: 'set:72157640092567326',
+    });
+
+    Galleria.run('#gallery-2009', {
+        // 2013 Set
+        flickr: 'set:72157640099652915',
+    });
+
+    Galleria.run('#gallery-2008', {
+        // 2013 Set
+        flickr: 'set:72157640048187413',
+    });
+
+    Galleria.run('#gallery-2007', {
+        // 2013 Set
+        flickr: 'set:72157640092616956',
     });
 
 });
