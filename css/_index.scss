@@ -23,6 +23,18 @@
 			margin-left: auto;
 			margin-right: auto;
 		}
+
+		.carousel-caption {
+			bottom: -10px;
+			font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+			font-weight: 500;
+			padding-bottom: 0px;
+			text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+
+			&.super-low {
+				bottom: -20px;
+			}
+		}
 	}
 
 }
