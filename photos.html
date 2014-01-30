@@ -121,6 +121,10 @@ $(document).ready(function(){
     // Load the classic theme
     Galleria.loadTheme('dist/js/galleria.classic.min.js');
 
+    Galleria.configure({
+    	debug: false
+    });
+
     // Initialize Galleria
     Galleria.run('#gallery-2013', {
         flickr: 'set:72157640101678533',
