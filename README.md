@@ -34,17 +34,18 @@ Are you thinking about maintaining the steel bridge team's website? Here are the
 
 ### Editing Instructions
 The following things should be done each year:
+- Download the current version of the site. You can download this saved 2014 version of the site using the '''Download ZIP''' button to the right. However, updates may have been made to the site and not saved in github. In this case you should download the current '''public_html''' folder from the OCF servers (connection instruction below).
+- -
 - update history to include past year
 - add more photos albums (flickr, get credentials from past webmaster/PM)
 - update contact info & officers
 - if desired, update slideshow on homepage
 
 ### Uploading Instructions
-- hosted on Berkeley's OCF
-- FTP into OCF
-- transfer files into public_html folder
-- (link to their instructions)
-- you can download this version of the site, or contact me to get edit privileges to this repo
+- The site is hosted on Berkeley's [OCF](http://ocf.berkeley.edu) servers.
+- Set up a SFTP (ssh file transfer protocol) into OCF. The easiest way to do this is to download [Cyberduck](http://cyberduck.io/) or a similar program and create a new STFP connection with the following settings: Host Name: ssh.ocf.berkeley.edu, Port: 22. Get the username and password from the last web maintainer (below) or the previous PM. Once connected, you will see a set of folders. This is where the site files are placed.
+- Specifically, the website files are put into the '''public_html''' folder. You should copy the '''dist''' and ''font''' folders and all .html files into this folder. After updating these files, the live website should update also.
+- [OCF Connection Instructions](http://wiki.ocf.berkeley.edu/services/shell/)
 
 ### Contact Instructions
 - last website maintainer: Zack Mayeda (Fall 2013, Spring 2014)
