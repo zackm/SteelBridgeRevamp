@@ -34,8 +34,15 @@ Are you thinking about maintaining the steel bridge team's website? Here are the
 
 ### Editing Instructions
 The following things should be done each year:
-- Download the current version of the site. You can download this saved 2014 version of the site using the ```Download ZIP``` button to the right. However, updates may have been made to the site and not saved in github. In this case you should download the current ```public_html``` folder from the OCF servers (connection instruction below).
-- -
+- Download the current version of the site. You can download this saved 2014 version of the site using the ```Download ZIP``` button to the right. However, the site may have been updated and not saved in github. In this case you should download the current ```public_html``` folder from the OCF servers (connection instructions below).
+I'll walk through the changes that are needed for each page on the site. I've also included helpful notes in the html files themselves. Lines that look like this ```<!-- Hello! -->``` are comments and don't show up on the site.
+- Home page (index.html)
+  - No mandatory changes on this page, just fun ones :)
+  - You can add/alter/remove photos in the photo slider. Photos that are added must be 1450px x 500px and should be put in the ```dist/img/slider/``` folder.
+  - Add the correct html for each photo (documented in html file), and add an indicator for each new photo. Indicators are the dots below the photos that let you skip to certain photos. Make sure to have the same number of indicators in the html as you have photos.
+- About page (about.html)
+  - No mandatory changes on this page.
+
 - update history to include past year
 - add more photos albums (flickr, get credentials from past webmaster/PM)
 - update contact info & officers
