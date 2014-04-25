@@ -61,10 +61,10 @@ I'll walk through the changes that are needed for each page on the site. I've al
   - If you want to add a sponsor, get the sponsor's logo and make it black and white with photoshop or another photo editor. Save the image as a png and make sure it is as most 350px x 350px. It's ok if it's not that exact size, most existing logos are 350px x 140px. Put the image in the ```dist/img/sponsors/``` file.
   - If there are fewer than 3 logos on the bottom row, follow the instructions in the html to insert the new logo. All that is required is to edit an img source, and add a div.
   - If the bottom row of logos is full with 3 images already, you'll need to duplicate a whole row's html. Copy the denoted html block and paste it to the bottom of the page.
-- Contact page 
-
-- update contact info & officers
-- if desired, update slideshow on homepage
+- Contact page
+  - You're almost done! Now you just need to update the PM's info.
+  - Replace the PM name and email where noted in the html.
+- That's it! Now upload it to the OCF servers! Instructions below:
 
 ### Uploading Instructions
 - The site is hosted on Berkeley's [OCF](http://ocf.berkeley.edu) servers.
