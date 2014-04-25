@@ -64,7 +64,7 @@ I'll walk through the changes that are needed for each page on the site. I've al
 - Contact page
   - You're almost done! Now you just need to update the PM's info.
   - Replace the PM name and email where noted in the html.
-- That's it! Now upload it to the OCF servers! Instructions below:
+- That's it! :sparkles: Congratulations! :sparkles: Now upload it to the OCF servers! Instructions below:
 
 ### Uploading Instructions
 - The site is hosted on Berkeley's [OCF](http://ocf.berkeley.edu) servers.
