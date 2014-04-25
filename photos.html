@@ -32,14 +32,20 @@
 		</header>
 
 		<article class="photos">
+			<!-- Paste new gallery items here! -->
+
+			<!-- Begin gallery item -->
 			<div class="pure-g row">
 				<div class="pure-u-1-4">
+					<!-- Year -->
 					<h1 class="gallery-year">2013</h1>
 				</div>
 				<div class="pure-u-1-2">
+					<!-- IMPORTANT! ID of this gallery. -->
 					<div id="gallery-2013"></div>
 				</div>
 			</div>
+			<!-- End gallery item -->
 
 			<div class="pure-g row">
 				<div class="pure-u-1-4">
@@ -104,7 +110,7 @@
 	</div>
 
 <style>
-	#gallery-2013, #gallery-2012, #gallery-2011, #gallery-2010, #gallery-2009, #gallery-2008, #gallery-2007 {
+	div[id^='gallery-'] {
 		height: 475;
 	}
 </style>
@@ -122,33 +128,23 @@ $(document).ready(function(){
     });
 
     // Initialize Galleria
-    Galleria.run('#gallery-2013', {
-        flickr: 'set:72157640101678533',
-    });
 
-    Galleria.run('#gallery-2012', {
-        flickr: 'set:72157640092543756',
-    });
+    // Put new gallery instantiation calls here:
 
-    Galleria.run('#gallery-2011', {
-        flickr: 'set:72157640326398294',
-    });
+    // Gallery creation function call
+    Galleria.run('#gallery-2013', { flickr: 'set:72157640101678533', });
 
-    Galleria.run('#gallery-2010', {
-        flickr: 'set:72157640092567326',
-    });
+    Galleria.run('#gallery-2012', { flickr: 'set:72157640092543756', });
 
-    Galleria.run('#gallery-2009', {
-        flickr: 'set:72157640099652915',
-    });
+    Galleria.run('#gallery-2011', { flickr: 'set:72157640326398294', });
 
-    Galleria.run('#gallery-2008', {
-        flickr: 'set:72157640048187413',
-    });
+    Galleria.run('#gallery-2010', { flickr: 'set:72157640092567326', });
 
-    Galleria.run('#gallery-2007', {
-        flickr: 'set:72157640092616956',
-    });
+    Galleria.run('#gallery-2009', { flickr: 'set:72157640099652915', });
+
+    Galleria.run('#gallery-2008', { flickr: 'set:72157640048187413', });
+
+    Galleria.run('#gallery-2007', { flickr: 'set:72157640092616956', });
 
 });
 </script>
