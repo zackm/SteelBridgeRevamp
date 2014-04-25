@@ -46,8 +46,19 @@ I'll walk through the changes that are needed for each page on the site. I've al
   - Add the results from the previous year! (Hopefully things went well)
   - Copy an existing 'history item' html block (denoted in html file) and paste it at the top of the list (correct location also denoted in html file). Alter the team name, year, PM, press links, photo, and t-shirt logo. The t-shirt image should be a 90px x 90px photo in the ```dist/img/icons/``` folder. The photo for the year should be a really nice photo and should be at least 500px x 450px. It's ok if it's not those exact dimensions.
 - Photos page (photos.html)
- -- 
-- add more photos albums (flickr, get credentials from past webmaster/PM)
+  - Just do your best here, I understand flickr can be annoying to work with.
+  - We host photos on flickr, so you'll need to get the flickr login from the PM or previous webmaster.
+  - Here are flickr uploading instructions as of April 2014: 
+    - Click upload and select photos for the past year.
+    - Add them to a new public album called "UC Berkeley Steel Bridge Team 20XX"
+    - After creating the album, view the album and note the url. There should be a long number at the end, like ```/sets/3484583495034/```. Copy that number.
+  - Now that you've uploaded the photos to flickr, open up the html file for our site.
+  - Duplicate a "gallery item" as denoted in the file and change the year. Also change the ID where marked. The new ID should match the year of the album you're adding. The actual gallery is created with javascript, so all you'll see in the html file is ```<div id='gallery-2014'></div>```.
+  - Go to the bottom of the file and edit the javascript to know to insert a new gallery. Find the area where there are a bunch of lines with ```Galleria.run..```. Copy and paste the marked line. Edit the copy to have the same ID that you just created and replace the long number with the album number that you copied from the url earlier.
+  - Give it a try and make sure it works!
+- Sponsors page
+- Contact page 
+
 - update contact info & officers
 - if desired, update slideshow on homepage
 
@@ -58,4 +69,4 @@ I'll walk through the changes that are needed for each page on the site. I've al
 - [OCF Connection Instructions](http://wiki.ocf.berkeley.edu/services/shell/)
 
 ### Contact Instructions
-- last website maintainer: Zack Mayeda (Fall 2013, Spring 2014)
+- last website maintainer: Zack Mayeda (Fall 2013, Spring 2014) - zackmayeda@gmail.com
