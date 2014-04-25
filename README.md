@@ -40,12 +40,12 @@ I'll walk through the changes that are needed for each page on the site. I've al
   - No mandatory changes on this page, just fun ones :)
   - You can add/alter/remove photos in the photo slider. Photos that are added must be 1450px x 500px and should be put in the ```dist/img/slider/``` folder.
   - Add the correct html for each photo (documented in html file), and add an indicator for each new photo. Indicators are the dots below the photos that let you skip to certain photos. Make sure to have the same number of indicators in the html as you have photos.
-- About page (about.html)
+- About page
   - No mandatory changes on this page. Feel free to alter the text though. Pictures too.
-- History page (history.html)
+- History page
   - Add the results from the previous year! (Hopefully things went well)
   - Copy an existing 'history item' html block (denoted in html file) and paste it at the top of the list (correct location also denoted in html file). Alter the team name, year, PM, press links, photo, and t-shirt logo. The t-shirt image should be a 90px x 90px photo in the ```dist/img/icons/``` folder. The photo for the year should be a really nice photo and should be at least 500px x 450px. It's ok if it's not those exact dimensions.
-- Photos page (photos.html)
+- Photos page
   - Just do your best here, I understand flickr can be annoying to work with.
   - We host photos on flickr, so you'll need to get the flickr login from the PM or previous webmaster.
   - Here are flickr uploading instructions as of April 2014: 
@@ -57,6 +57,10 @@ I'll walk through the changes that are needed for each page on the site. I've al
   - Go to the bottom of the file and edit the javascript to know to insert a new gallery. Find the area where there are a bunch of lines with ```Galleria.run..```. Copy and paste the marked line. Edit the copy to have the same ID that you just created and replace the long number with the album number that you copied from the url earlier.
   - Give it a try and make sure it works!
 - Sponsors page
+  - No mandatory changes on this page.
+  - If you want to add a sponsor, get the sponsor's logo and make it black and white with photoshop or another photo editor. Save the image as a png and make sure it is as most 350px x 350px. It's ok if it's not that exact size, most existing logos are 350px x 140px. Put the image in the ```dist/img/sponsors/``` file.
+  - If there are fewer than 3 logos on the bottom row, follow the instructions in the html to insert the new logo. All that is required is to edit an img source, and add a div.
+  - If the bottom row of logos is full with 3 images already, you'll need to duplicate a whole row's html. Copy the denoted html block and paste it to the bottom of the page.
 - Contact page 
 
 - update contact info & officers
