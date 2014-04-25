@@ -41,9 +41,12 @@ I'll walk through the changes that are needed for each page on the site. I've al
   - You can add/alter/remove photos in the photo slider. Photos that are added must be 1450px x 500px and should be put in the ```dist/img/slider/``` folder.
   - Add the correct html for each photo (documented in html file), and add an indicator for each new photo. Indicators are the dots below the photos that let you skip to certain photos. Make sure to have the same number of indicators in the html as you have photos.
 - About page (about.html)
-  - No mandatory changes on this page.
-
-- update history to include past year
+  - No mandatory changes on this page. Feel free to alter the text though. Pictures too.
+- History page (history.html)
+  - Add the results from the previous year! (Hopefully things went well)
+  - Copy an existing 'history item' html block (denoted in html file) and paste it at the top of the list (correct location also denoted in html file). Alter the team name, year, PM, press links, photo, and t-shirt logo. The t-shirt image should be a 90px x 90px photo in the ```dist/img/icons/``` folder. The photo for the year should be a really nice photo and should be at least 500px x 450px. It's ok if it's not those exact dimensions.
+- Photos page (photos.html)
+ -- 
 - add more photos albums (flickr, get credentials from past webmaster/PM)
 - update contact info & officers
 - if desired, update slideshow on homepage
