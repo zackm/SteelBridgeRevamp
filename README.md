@@ -47,10 +47,10 @@ I'll walk through the changes that are needed for each page on the site. I've al
   - Copy an existing 'history item' html block (denoted in html file) and paste it at the top of the list (correct location also denoted in html file). Alter the team name, year, PM, press links, photo, and t-shirt logo. The t-shirt image should be a 90px x 90px photo in the ```dist/img/icons/``` folder. The photo for the year should be a really nice photo and should be at least 500px x 450px. It's ok if it's not those exact dimensions.
 - Photos page
   - Just do your best here, I understand flickr can be annoying to work with.
-  - We host photos on flickr, so you'll need to get the flickr login from the PM or previous webmaster.
+  - We host photos on flickr, so you'll need to get the flickr login from the PM or previous webmaster. The flickr username is calsteelbridge. Albums can be viewed [here](https://www.flickr.com/photos/115191193@N02/sets/).
   - Here are flickr uploading instructions as of April 2014: 
     - Click upload and select photos for the past year.
-    - Add them to a new public album called "UC Berkeley Steel Bridge Team 20XX"
+    - Add them to a new public album called "UC Berkeley Steel Bridge 20XX"
     - After creating the album, view the album and note the url. There should be a long number at the end, like ```/sets/3484583495034/```. Copy that number.
   - Now that you've uploaded the photos to flickr, open up the html file for our site.
   - Duplicate a "gallery item" as denoted in the file and change the year. Also change the ID where marked. The new ID should match the year of the album you're adding. The actual gallery is created with javascript, so all you'll see in the html file is ```<div id='gallery-2014'></div>```.
