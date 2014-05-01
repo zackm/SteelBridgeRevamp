@@ -5,10 +5,10 @@ module.exports = function(grunt) {
 		concat: {
 			dist: {
 				src: [
-					'js/jquery-1.10.2.min.js',
-					'js/bootstrap.min.js',
-					'js/galleria.min.js',
-					'js/galleria.flickr.min.js'
+					'src/js/jquery-1.10.2.min.js',
+					'src/js/bootstrap.min.js',
+					'src/js/galleria.min.js',
+					'src/js/galleria.flickr.min.js'
 				],
 				dest: 'dist/js/prod.js'
 			}
@@ -18,7 +18,7 @@ module.exports = function(grunt) {
 			dynamic: {
 				files: [{
 					expand: true,
-					cwd: 'img/',
+					cwd: 'src/img/',
 					src: ['**/*.{png,jpg,gif}'],
 					dest: 'dist/img'
 				}]
@@ -31,21 +31,21 @@ module.exports = function(grunt) {
 					style: 'compressed'
 				},
 				files: {
-					'dist/prod.css': 'css/style.scss'
+					'dist/css/prod.css': 'src/css/style.scss'
 				}
 			}
 		},
 
 		watch: {
 			scripts:  {
-				files: ['js/*.js'],
+				files: ['src/js/*.js'],
 				tasks: ['concat'],
 				options: {
 					spawn: false
 				}
 			},
 			css: {
-				files: ['css/*.scss'],
+				files: ['src/css/*.scss'],
 				tasks: ['sass'],
 				options: {
 					spawn: false
