@@ -25,10 +25,10 @@ Are you thinking about maintaining the steel bridge team's website? Here are the
 - ```about.html```,```contact.html```, ```history.html```, ```index.html```, ```photos.html```, ```sponsors.html``` (These are the actual web pages. Index is the home page. Most edits will occur in these files.)
 
 #### Advanced Files
-- ```css/``` (The source SCSS files.)
-- ```img/``` (The source image folder with uncompressed images.)
-- ```js/``` (The source Javascript folder filled with libraries I used.)
 - ```src/``` (A relic of previous directory structure, just holds the Berkeley seal with shadow .psd file.)
+  - ```css/``` (The source SCSS files.)
+  - ```img/``` (The source image folder with uncompressed images.)
+  - ```js/``` (The source Javascript folder filled with libraries I used.)
 - ```Gruntfile.js``` (The Grunt config file)
 - ```package.json``` (NPM modules required for Grunt)
 
