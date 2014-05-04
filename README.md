@@ -2,7 +2,10 @@ The Official Website of UC Berkeley's Steel Bridge Team
 =================
 
 ### Getting Started
-Are you thinking about maintaining the steel bridge team's website? Here are the skills required to make changes to this site:
+
+
+> Are you thinking about maintaining the steel bridge team's website? Here are the skills required to make changes to this site:
+
 - Ability to use a text editor like Sublime Text, TextMate, TextEdit, Emacs, or Notepad++...
 - Knowledge of HTML if helpful, but definitely not required. Most editing is just duplicating existing code or replacing contact info from year to year.
 - Basic image editing (resizing, cropping, uploading to flickr)
@@ -12,9 +15,12 @@ Are you thinking about maintaining the steel bridge team's website? Here are the
 ### Site Overview
 - This is a static site, so to make changes you must edit the source HTML files and re-upload them to the OCF servers (more info on this below).
 - Images on the photos page are saved on Flickr. A new Flickr set should be made for each year.
+
 > Knowledgeable web developers can keep reading, but the following info isn't critical to make yearly updates to the site.
+
 - Styling is done with [SASS](http://sass-lang.com/). You can write with normal CSS syntax in .scss files, but then you have to compile it into a .css file before using the styles on the production site. All source css files are in the ```css``` folder. The compiled, production ready CSS is in ```dist/prod.css```.
 - CSS and JS files are concatenated into single respective files for production, so please make new versions after making changes. I used the [Grunt](http://gruntjs.com/) build system to do this, so if you have [npm](https://www.npmjs.org/) and Grunt installed, then all you need to do is run '''grunt''' on the command line while in the website directory to produce these files. I also set up Grunt to do some other helpful things like compress images, take a look in the Gruntfile to see what else is set up.
+- Most website files are stored on Github, [here](https://github.com/zackm/SteelBridgeRevamp). A development version of the site is automatically hosted on github when you push to the ```gh-pages``` branch of this repo. To read up on github pages, read [here](https://pages.github.com/). To see the version of the website hosted on github, click [here](http://zackm.github.io/SteelBridgeRevamp/);
 
 ### Explanation of Included Files
 #### Basic Files
