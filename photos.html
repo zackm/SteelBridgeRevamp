@@ -32,19 +32,28 @@
 
 		<article class="photos">
 			<!-- Paste new gallery items here! -->
-
+			
 			<!-- Begin gallery item -->
 			<div class="pure-g row">
 				<div class="pure-u-1-4">
 					<!-- Year -->
-					<h1 class="gallery-year">2013</h1>
+					<h1 class="gallery-year">2014</h1>
 				</div>
 				<div class="pure-u-1-2">
 					<!-- IMPORTANT! ID of this gallery. -->
-					<div id="gallery-2013"></div>
+					<div id="gallery-2014"></div>
 				</div>
 			</div>
 			<!-- End gallery item -->
+
+			<div class="pure-g row">
+				<div class="pure-u-1-4">
+					<h1 class="gallery-year">2013</h1>
+				</div>
+				<div class="pure-u-1-2">
+					<div id="gallery-2013"></div>
+				</div>
+			</div>
 
 			<div class="pure-g row">
 				<div class="pure-u-1-4">
@@ -114,7 +123,10 @@
 	}
 </style>
 
-<script src="dist/js/prod.js"></script>
+<script src="src/js/jquery-1.10.2.min.js"></script>
+<script src="src/js/bootstrap.min.js"></script>
+<script src="src/js/galleria.min.js"></script>
+<script src="src/js/galleria.flickr.min.js"></script>
 
 <script>
 $(document).ready(function(){
@@ -133,6 +145,8 @@ $(document).ready(function(){
     // Put new gallery instantiation calls here:
 
     // Gallery creation function call
+	Galleria.run('#gallery-2014', { flickr: 'set:72157645457182445' });
+
     Galleria.run('#gallery-2013', { flickr: 'set:72157640101678533', });
 
     Galleria.run('#gallery-2012', { flickr: 'set:72157640092543756', });
