@@ -4,6 +4,8 @@ The Official Website of UC Berkeley's Steel Bridge Team
 ### Getting Started
 
 
+[Test](magooshbuilderapp://)
+
 > Are you thinking about maintaining the steel bridge team's website? Here are the skills required to make changes to this site:
 
 - Ability to use a text editor like Sublime Text, TextMate, TextEdit, Emacs, or Notepad++...
