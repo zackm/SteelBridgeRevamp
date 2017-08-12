@@ -1,0 +1,28 @@
+article.photos {
+	margin-bottom: $footer_height + 15px;
+	padding-bottom: 10px;
+
+	img {
+		max-width: 100%;
+	}
+
+	.row {
+		margin-bottom: 30px;
+		h1 {
+			color: #ccc;
+			margin-left: 20px;
+		}
+	}
+
+	h1.gallery-year {
+		-webkit-transform: rotate(-90deg);
+		-mox-transform: rotate(-90deg);
+		-ms-transform: rotate(-90deg);
+
+		font-size: 8em;
+		position: relative;
+		top: 30px;
+		right: -100px;
+	}
+
+}

@@ -1,0 +1,85 @@
+<html lang="en" class="">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="A layout example that shows off a responsive pricing table.">
+
+	<title>UC Berkeley Steel Bridge Team | About</title>
+
+	<link rel="stylesheet" href="dist/css/prod.css">
+	<script src="dist/js/prod.js"></script>
+</head>
+<body>
+	<div id="wrap">
+		<header>
+			<div class="home">
+				<a href="index.html">
+					<img src="dist/img/seal.png" alt="" class="seal">
+					<span class="ucb">UC Berkeley</span>
+					<span class="team">Steel Bridge Competition Team</span>
+				</a>
+			</div>
+
+			<div class="nav">
+				<ul>
+					<li><a href="#" class="selected">About</a></li>
+					<li><a href="history.html">History</a></li>
+					<li><a href="photos.html">Photos</a></li>
+					<li><a href="sponsors.html">Sponsors</a></li>
+					<li><a href="contact.html" >Contact</a></li>
+				</ul>
+			</div>
+		</header>
+
+		<article class="about">
+			<div class="pure-g row">
+				<div class="pure-u-1-6"></div>
+				<div class="pure-u-1-3 shadow-left">
+					<img src="dist/img/bridge_perspective.jpg" alt="">
+				</div>
+				<div class="pure-u-1-3 description shadow-right">
+					<h2>The Competition</h2>
+					The Student Steel Bridge Competition is an annual contest that challenges engineering students to design and fabricate the most structurally efficient, economic, stiff, and light bridge. This important competition offers future civil/structural engineers the opportunity to show their skills in steel design, steel fabrication, and teamwork. Read more about the competition on the official website: <a href="http://www.nssbc.info">NSSBC Website</a>.
+				</div>
+			</div>
+
+			<div class="pure-g row">
+				<div class="pure-u-1-6"></div>
+				<div class="pure-u-1-3 description shadow-left">
+					<h2>What We Do</h2>
+					In the fall semester, the Cal Steel Bridge Team works on the design of the bridge. All members participate in design teams to determine the best design that follows the rules for the year. By the end of the design segment, every individual is proficient in AutoCAD and SAP2000. After determining our design, the SolidWorks team produces drawings that will be used by the shops for fabrication. In the spring semester, the Cal Steel Bridge Team heads over to one of two shops: Davis or Etcheverry. In the shops, students fabricate every single member and connection on the bridge. After fabrication, we put our construction team to work on putting our bridge together quickly and efficiently. Overall, it's a lengthy but rewarding process!
+				</div>
+				<div class="pure-u-1-3 shadow-right">
+					<img src="dist/img/build.jpg" alt="">
+				</div>
+			</div>
+
+		</article>
+
+	</div>
+
+	<div id="footer">
+		<div class="heading">University of California, Berkeley</div>
+		<div class="heading" id="current-year"></div>
+	</div>
+
+<script>
+	$(document).on("ready", function() {
+		// Auto Set current year in footer
+		$("#current-year").text(new Date().getFullYear());
+		
+		$(document).keydown(function(e) {
+			switch(e.which) {
+				case 69: // 'e' launches easter egg
+				window.open('suchwow');
+				break;
+
+				default: return;
+			}
+			e.preventDefault();
+		});
+	});
+</script>
+
+</body>
+</html>

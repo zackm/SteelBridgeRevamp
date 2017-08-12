@@ -1,0 +1,28 @@
+/* History Page */
+.timeline {
+	padding-top: 25px;
+	padding-bottom: $footer_height;
+
+	#icon-2013 {
+		//background: url('img/icons/icon-2013.png') left top no-repeat;
+	}
+	.cbp_tmicon {
+		img {
+			width: $icon_size;
+			height: $icon_size;
+			border-radius: 50%;
+		}
+	}
+
+	.cbp_tmlabel {
+		img {
+			max-width: 100%;
+		}
+		.press {
+			ul {
+				font-size: .8em;
+			}
+		}
+	}
+
+}

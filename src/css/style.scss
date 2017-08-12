@@ -1,0 +1,232 @@
+@import "shared";
+@import "index";
+@import "history";
+@import "timeline";
+@import "timeline-base";
+@import "about";
+@import "sponsors";
+@import "photos";
+@import "contact";
+@import "pure-min"; // This is the Pure CSS Framework file. http://purecss.io
+
+html, body {
+	height: 100%;
+	min-width: 768px; // starts breaking when skinnier than this
+}
+
+#wrap {
+	min-height: 100%;
+}
+
+#main {
+	overflow:auto;
+	padding-bottom: $footer_height;
+}  /* must be same height as the footer */
+
+#footer {
+	position: relative;
+	margin-top: -$footer_height; /* negative value of footer height */
+	height: $footer_height;
+	clear: both;
+	display: block;
+} 
+
+body {
+	background-image: url(../img/wild_oliva.png);
+	font-family: 'helvetica neue', sans-serif;
+}
+
+/* Navigation Bar */
+header {
+	// Home Button
+	.home {
+		.team {
+			padding-top: 15px;
+			font-size: 1.8em;
+			text-shadow: 1px 1px 3px black;
+		}
+		padding-top: 40px;
+		padding-left: 100px;
+		padding-bottom: 40px;
+		a {
+			color: white;
+			text-decoration: none;
+			&:hover {
+				color: lighten($timeline2, 65%);
+			}
+			transition: color .3s ease;
+		}
+
+		.ucb {
+			font-size: 1.1em;
+			font-weight: normal;
+			display: block;
+			text-shadow: 1px 1px 2px black;
+		}
+		.seal {
+			width: 80px;
+			height: 80px;
+			padding-right: 10px;
+			float: left;
+			position: relative;
+			top: -13px;
+		}
+	}
+
+	.nav {
+		width: 100%;
+		background-color: $nav_color2;
+		text-align: center;
+		ul {
+			box-shadow: 0px 0px 0px 15px $nav_color2;
+			list-style-type: none;
+			li {
+				display: inline;
+			}
+		}
+		a {
+			margin-left: -4px;
+			padding: 15px 40px;
+			font-size: 1.1em;
+			color: $bg_color;
+			text-decoration: none;
+			&:hover {
+				color: lighten($bg_color, 20%);
+				background-color: rgba($nav_color2, .9);
+			}
+			// background-color: $nav_color2;
+			&.selected {
+				background-color: $bg_color;
+				color: rgba($nav_color2, .9);
+			}
+		}
+	}
+
+}
+
+
+#footer {
+	.pure-u-1-5 {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	text-align: center;
+	font-size: .9em;
+	text-shadow: 1px 1px 2px darken($bg_color, 50%);
+	a {
+		text-decoration: none;
+		color: #555555;
+	}
+	ul {
+		list-style-type: none;
+	}
+	.heading {
+		color: #ccc;
+	}
+	span.ocf {
+		float: right;
+		position: relative;
+		top: -25px;
+		padding: 5px 15px;
+		background-color: darken($bg_color, 10%);
+		border-radius: 2px 0px 0px 2px;
+		box-shadow: 0px 0px 3px 1px darken($bg_color, 55%);
+		&:hover {
+			background-color: darken($bg_color, 5%);
+		}
+		a {
+			color: lighten($bg_color, 15%);
+		}
+	}
+}
+
+article {
+	margin-top: -2px;
+	padding-top: 45px;
+	background-color: $bg_color;
+
+	&.sponsors {
+		// background-color: #aaa; // looks good on this page. change everywhere?
+		padding-bottom: 75px;
+	}
+	&.history {
+		// background-color: #777777;
+	}
+}
+
+.centerpiece {
+	text-align: center;
+	position: relative;
+	top: -58px;
+	img {
+		width: 80px;
+		height: 80px;
+	}
+}
+
+.pure-menu {
+	text-align: center;
+}
+
+// Link Styles
+article {
+	a {
+		color: $timeline2;
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+			color: lighten($timeline2, 15%);
+		}
+
+		&:visited {
+			color: lighten(black, 35%);
+		}
+	}
+}
+article.history {
+	a {
+		color: white;
+
+		&:hover {
+			color: lighten($timeline2, 55%);
+		}
+		&:visited {
+			color: $bg_color;
+		}
+	}
+}
+
+/* Bubble Bottom */
+/* Needs work
+.bubble-bottom {
+  display: inline-block;
+  position: relative;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.bubble-bottom:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  border-style: solid;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: bottom;
+  transition-property: bottom;
+  left: -webkit-calc(50% - 10px);
+  left: calc(50% - 10px);
+  bottom: 0;
+  border-width: 10px 10px 0 10px;
+  border-color: #e1e1e1 transparent transparent transparent;
+}
+
+.bubble-bottom:hover:before {
+  bottom: -10px;
+}
+*/

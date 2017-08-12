@@ -1,0 +1,167 @@
+<html lang="en" class="">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="A layout example that shows off a responsive pricing table.">
+
+	<title>UC Berkeley Steel Bridge Team | Photos</title>
+
+	<link rel="stylesheet" href="dist/css/prod.css">
+</head>
+<body>
+	<div id="wrap">
+		<header>
+			<div class="home">
+				<a href="index.html">
+					<img src="dist/img/seal.png" alt="" class="seal">
+					<span class="ucb">UC Berkeley</span>
+					<span class="team">Steel Bridge Competition Team</span>
+				</a>
+			</div>
+
+			<div class="nav">
+				<ul>
+					<li><a href="about.html">About</a></li>
+					<li><a href="history.html">History</a></li>
+					<li><a href="photos.html" class="selected">Photos</a></li>
+					<li><a href="sponsors.html">Sponsors</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</header>
+
+		<article class="photos">
+			<!-- Paste new gallery items here! -->
+			
+			<!-- Begin gallery item -->
+			<div class="pure-g row">
+				<div class="pure-u-1-4">
+					<!-- Year -->
+					<h1 class="gallery-year">2014</h1>
+				</div>
+				<div class="pure-u-1-2">
+					<!-- IMPORTANT! ID of this gallery. -->
+					<div id="gallery-2014"></div>
+				</div>
+			</div>
+			<!-- End gallery item -->
+
+			<div class="pure-g row">
+				<div class="pure-u-1-4">
+					<h1 class="gallery-year">2013</h1>
+				</div>
+				<div class="pure-u-1-2">
+					<div id="gallery-2013"></div>
+				</div>
+			</div>
+
+			<div class="pure-g row">
+				<div class="pure-u-1-4">
+					<h1 class="gallery-year">2012</h1>
+				</div>
+				<div class="pure-u-1-2">
+					<div id="gallery-2012"></div>
+				</div>
+			</div>
+
+			<div class="pure-g row">
+				<div class="pure-u-1-4">
+					<h1 class="gallery-year">2011</h1>
+				</div>
+				<div class="pure-u-1-2">
+					<div id="gallery-2011"></div>
+				</div>
+			</div>
+
+			<div class="pure-g row">
+				<div class="pure-u-1-4">
+					<h1 class="gallery-year">2010</h1>
+				</div>
+				<div class="pure-u-1-2">
+					<div id="gallery-2010"></div>
+				</div>
+			</div>
+
+			<div class="pure-g row">
+				<div class="pure-u-1-4">
+					<h1 class="gallery-year">2009</h1>
+				</div>
+				<div class="pure-u-1-2">
+					<div id="gallery-2009"></div>
+				</div>
+			</div>
+
+			<div class="pure-g row">
+				<div class="pure-u-1-4">
+					<h1 class="gallery-year">2008</h1>
+				</div>
+				<div class="pure-u-1-2">
+					<div id="gallery-2008"></div>
+				</div>
+			</div>
+
+			<div class="pure-g row">
+				<div class="pure-u-1-4">
+					<h1 class="gallery-year">2007</h1>
+				</div>
+				<div class="pure-u-1-2">
+					<div id="gallery-2007"></div>
+				</div>
+			</div>
+		</article>
+
+	</div>
+
+	<div id="footer">
+		<div class="heading">University of California, Berkeley</div>
+		<div class="heading" id="current-year"></div>
+	</div>
+
+<style>
+	div[id^='gallery-'] {
+		height: 475;
+	}
+</style>
+
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/galleria.min.js"></script>
+<script src="js/galleria.flickr.min.js"></script>
+
+<script>
+$(document).ready(function(){
+	// Auto Set current year in footer
+	$("#current-year").text(new Date().getFullYear());
+
+    // Load the classic theme
+    Galleria.loadTheme('dist/js/galleria.classic.min.js');
+
+    Galleria.configure({
+    	debug: false
+    });
+
+    // Initialize Galleria
+
+    // Put new gallery instantiation calls here:
+
+    // Gallery creation function call
+	Galleria.run('#gallery-2014', { flickr: 'set:72157645457182445' });
+
+    Galleria.run('#gallery-2013', { flickr: 'set:72157640101678533', });
+
+    Galleria.run('#gallery-2012', { flickr: 'set:72157640092543756', });
+
+    Galleria.run('#gallery-2011', { flickr: 'set:72157640326398294', });
+
+    Galleria.run('#gallery-2010', { flickr: 'set:72157640092567326', });
+
+    Galleria.run('#gallery-2009', { flickr: 'set:72157640099652915', });
+
+    Galleria.run('#gallery-2008', { flickr: 'set:72157640048187413', });
+
+    Galleria.run('#gallery-2007', { flickr: 'set:72157640092616956', });
+
+});
+</script>
+</body>
+</html>
