@@ -1,5 +1,4 @@
 The Official Website of UC Berkeley's Steel Bridge Team
-=================
 
 ### Getting Started
 
@@ -72,11 +71,6 @@ I'll walk through the changes that are needed for each page on the site. I've al
 - That's it! :sparkles: Congratulations! :sparkles: Now upload it to the OCF servers! Instructions below:
 - Now add yourself to the list of website maintainers at the bottom of this file. Don't worry about adding your email if you're not comfortable with that. Just make sure the PM's email is on the site, and then questions can go through them.
 
-### Uploading Instructions
-- The site is hosted on Berkeley's [OCF](http://ocf.berkeley.edu) servers.
-- Set up a SFTP (ssh file transfer protocol) into OCF. The easiest way to do this is to download [Cyberduck](http://cyberduck.io/) or a similar program and create a new STFP connection with the following settings: Host Name: ssh.ocf.berkeley.edu, Port: 22. Get the username and password from the last web maintainer (below) or the previous PM. Once connected, you will see a set of folders. This is where the site files are placed.
-- Specifically, the website files are put into the ```public_html``` folder. You should copy the ```dist``` and ```font``` folders and all .html files into this folder. After updating these files, the live website should update also.
-- [OCF Connection Instructions](http://wiki.ocf.berkeley.edu/services/shell/)
-
 ### Contact Instructions
-- last website maintainer: Zack Mayeda (Fall 2013, Spring 2014) - zackmayeda@gmail.com
+- last website maintainer: Zack Mayeda (Fall 2013, Spring 2014)
+
